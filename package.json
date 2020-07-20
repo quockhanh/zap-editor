@@ -2,7 +2,7 @@
   "name": "@zap/zap-editor",
   "author": "Zap",
   "description": "A customization from CKEditor5 classic build.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "SEE LICENSE IN LICENSE.md",
   "homepage": "https://github.com/quockhanh/zap-editor",
   "bugs": "https://github.com/quockhanh/zap-editor/issues",

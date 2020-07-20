@@ -31,8 +31,6 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter.js';
 import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters.js';
 import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency.js';
-import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough.js';
-import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript.js';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript.js';
 import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
@@ -73,8 +71,6 @@ Editor.builtinPlugins = [
   SimpleUploadAdapter,
   SpecialCharacters,
   SpecialCharactersCurrency,
-  Strikethrough,
-  Subscript,
   Superscript,
   Table,
   TableCellProperties,
@@ -91,9 +87,7 @@ Editor.defaultConfig = {
       '|',
       'bold',
       'italic',
-      'underline',
-      'strikethrough',
-      'subscript',
+      'underline',,
       'superscript',
       '|',
       'fontFamily',
@@ -106,7 +100,6 @@ Editor.defaultConfig = {
       '|',
       'alignment',
       'indent',
-      '|',
       'outdent',
       '|',
       'link',

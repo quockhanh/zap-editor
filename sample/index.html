@@ -104,68 +104,10 @@
 	<script src="../build/ckeditor.js"></script>
 	<script>ClassicEditor
 			.create( document.querySelector( '.editor' ), {
-				
-				toolbar: {
-					items: [
-						'heading',
-						'|',
-						'bold',
-						'italic',
-						'underline',
-						'strikethrough',
-						'subscript',
-						'superscript',
-						'|',
-						'fontFamily',
-						'fontSize',
-						'fontColor',
-						'fontBackgroundColor',
-						'|',
-						'bulletedList',
-						'numberedList',
-						'|',
-						'alignment',
-						'indent',
-						'|',
-						'outdent',
-						'|',
-						'link',
-						'imageUpload',
-						'blockQuote',
-						'insertTable',
-						'mediaEmbed',
-						'specialCharacters',
-						'|',
-						'undo',
-						'redo'
-					]
-				},
-				language: 'en',
-				image: {
-					toolbar: [
-						'imageTextAlternative',
-						'imageStyle:full',
-						'imageStyle:side'
-					]
-				},
-				table: {
-					contentToolbar: [
-						'tableColumn',
-						'tableRow',
-						'mergeTableCells',
-						'tableCellProperties',
-						'tableProperties'
-					]
-				},
 				licenseKey: '',
-				
 			} )
 			.then( editor => {
 				window.editor = editor;
-		
-				
-				
-				
 			} )
 			.catch( error => {
 				console.error( 'Oops, something gone wrong!' );
